@@ -1,0 +1,17 @@
+# Data files (upload riêng lên Railway Volume hoặc S3)
+data/
+*.faiss
+*.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# Dev files
+.env
+tests/
+.git/
+*.zip
