@@ -1,0 +1,8 @@
+{
+  "city": "Hà Nội",
+  "rows": 525,
+  "embedding_dim": 384,
+  "model": "intfloat/multilingual-e5-small",
+  "normalized": true,
+  "format": "semantic_v4_excel"
+}

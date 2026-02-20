@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Data (large files - upload separately to server)
+# data/          ← uncomment if you don't want to commit data
+
+# IDE
+.vscode/
+.idea/
+
+# Temp
+*.log
+.DS_Store
+
+# TypeScript services (moved to FoodTourAI project)
+services/

@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: foodtour-ai-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false          # Set manually in Render dashboard
+      - key: DATA_DIR
+        value: ./data
+      - key: DEFAULT_CITY
+        value: ha_noi
+      - key: MAX_FAISS_RESULTS
+        value: "20"
+    healthCheckPath: /health
+    autoDeploy: true
